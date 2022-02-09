@@ -1,0 +1,100 @@
+@font-face {
+  font-family: titulo; /* nombre que yo quiera */
+  src: url("../fonts/RaceSport-nR1j0.ttf");
+}
+/*Estilo Hero section*/
+#Hero {
+  background-image: url("../images/ducati_998_1.jpg");
+  background-size: cover; /* estira o encoge la imagen para que ocupe el bloque 
+                                 entero */
+  /*background-position: 33%;  para que recorte por el lado que le indique */
+  /*height: 95vh; /* 100vh sería el alto del dispositivo móvil, tablet o pc */
+  position: relative; /* como en halloween, para poder posicionar los rótulos */
+}
+
+#Hero h1 {
+  color: antiquewhite;
+  position: absolute; /* como los rótulos de halloween */
+  top: 20px;
+  left: 20px;
+  font-family: titulo; /* fuente de letra tipo runas */
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 1px #e0070b;
+}
+
+/* Estilo History section*/
+#History h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#History h2 {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #212529;
+}
+
+#History p {
+  font-size: 1.3em;
+}
+/*ESTILO GALERIA*/
+#Gallery h2 {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #212529;
+}
+
+/*ESTILO ACORDEON*/
+#Evolution img {
+  margin: auto;
+  padding: auto;
+  position: relative;
+}
+
+#Evolution button {
+  font-weight: bold;
+  font-family: titulo;
+}
+
+.titulo {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #212529;
+  /*background-color: #e0070b;*/
+}
+
+/*#Evolution h2 {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  /*background-color: #212529;
+  background-color: #e0070b;
+}*/
